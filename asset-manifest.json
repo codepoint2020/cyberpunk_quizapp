@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cyberpunk_quizapp/static/css/main.183d2ea3.css",
+    "main.js": "/cyberpunk_quizapp/static/js/main.7890fab9.js",
+    "static/js/592.891153cb.chunk.js": "/cyberpunk_quizapp/static/js/592.891153cb.chunk.js",
+    "index.html": "/cyberpunk_quizapp/index.html",
+    "main.183d2ea3.css.map": "/cyberpunk_quizapp/static/css/main.183d2ea3.css.map",
+    "main.7890fab9.js.map": "/cyberpunk_quizapp/static/js/main.7890fab9.js.map",
+    "592.891153cb.chunk.js.map": "/cyberpunk_quizapp/static/js/592.891153cb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.183d2ea3.css",
+    "static/js/main.7890fab9.js"
+  ]
+}
