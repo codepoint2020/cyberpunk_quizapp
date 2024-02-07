@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+
+body {
+  background-color: #121212; /* Dark background */
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.quiz-container {
+  background-color: #1e1e1e; /* Darker background for the container */
+  border-radius: 10px;
+  box-shadow: 0 0 10px 2px rgba(0, 255, 255, 1); /* Neon blue glow */
+  width: 600px;
+  overflow: hidden;
+
+}
+
+.quiz-question {
+  padding: 4rem;
+}
+
+h2 {
+  color: #ffcc00; /* Neon yellow text */
+  padding: 1rem;
+  text-align: center;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+  cursor: pointer;
+  color: #00ffcc; /* Neon cyan text */
+  transition: color 0.3s ease;
+  font-family: 'Orbitron', sans-serif; /* Use Orbitron font */
+  letter-spacing: 2px;
+}
+
+ul li:hover {
+  color: #ff0066; /* Neon pink on hover */
+  
+}
+
+button {
+  background-color: #ff0066; /* Neon pink button */
+  color: #fff;
+  border: 2px solid #ff0066; /* Neon pink border */
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-family: 'Orbitron', sans-serif; /* Use Orbitron font */
+  padding: 1.3rem;
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #e01b5d; /* Slightly darker pink on hover */
+  border-color: #ff0055; /* Slightly darker pink border on hover */
+}
+
+button:focus {
+  outline: none;
+  background-color: #cc0044; /* Darker pink on focus */
+  border-color: #cc0044; /* Darker pink border on focus */
+}
+
+ul li {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+  border: 1px solid #00ffcc;
+  padding: 5px;
+  transition: 0.5s ease;
+}
+
+ul > li:hover {
+  background-color: #00ffcc;
+  color: #121212;
+}
+
+/* Add other cyberpunk-inspired styles as needed */
+
+
+/* Responsive Styles */
+@media screen and (max-width: 600px) {
+  body, ul li {
+    font-size: 0.7rem;
+  }
+  .quiz-container {
+    width: 100%;
+    border-radius: 0;
+  }
+}
